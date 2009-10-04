@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{include_behaviors}
-  s.version = "0.0.2"
+  s.version = "0.0.5"
  
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nathan Verni"]
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = %q{A quick helper for auto-loading /public/javascripts/behaviors/{controller_name}/{action_name}.js}
   s.email = %q{npverni@gmail.com}
   s.extra_rdoc_files = ["CHANGELOG", "lib/include_behaviors.rb", "README.rdoc"]
-  s.files = ["CHANGELOG", "init.rb", "lib/include_behaviors.rb", "Manifest", "Rakefile", "README.rdoc", "include_behaviors.gemspec"]
+  s.files = ["CHANGELOG", "lib/include_behaviors.rb", "Manifest", "Rakefile", "README.rdoc", "include_behaviors.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/npverni/include_behaviors}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Will_sort", "--main", "README.rdoc"]

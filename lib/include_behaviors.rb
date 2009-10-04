@@ -2,7 +2,10 @@ module Focastle
   module IncludeBehaviors
     module InstanceMethods  
       def include_behaviors
-        javascript_include_tag "behaviors/#{params[:controller]}/#{params[:action]}.js" unless @skip_js     
+        unless @skip_js     
+          action = @js_action.blank? ? params[:action] : @js_action.to_s
+          javascript_include_tag "behaviors/#{params[:controller]}/#{action}.js" 
+        end
       end
     end
   end
