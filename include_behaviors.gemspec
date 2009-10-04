@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name = %q{include_behaviors}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
  
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nathan Verni"]
   s.date = %q{2009-10-02}
-  s.description = %q{A quick helper for auto-loading /public/javascripts/behaviros/{controller_name}/{action_name}.js}
+  s.description = %q{A quick helper for auto-loading /public/javascripts/behaviors/{controller_name}/{action_name}.js}
   s.email = %q{npverni@gmail.com}
   s.extra_rdoc_files = ["CHANGELOG", "lib/include_behaviors.rb", "README.rdoc"]
   s.files = ["CHANGELOG", "init.rb", "lib/include_behaviors.rb", "Manifest", "Rakefile", "README.rdoc", "include_behaviors.gemspec"]
