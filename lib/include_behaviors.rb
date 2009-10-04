@@ -7,3 +7,7 @@ module Focastle
     end
   end
 end
+
+
+require 'include_behaviors'
+ActionView::Base.send :include, Focastle::IncludeBehaviors::InstanceMethods
